@@ -25,6 +25,9 @@ Each project demonstrates how to dynamically update and style web pages using Ja
   - Responsive button with hover effects.
   - Clean card-style layout.
 
+📸 Screenshot:  
+![Basic Form](./All_Code/DOM-Projects/images/form.png)
+
 ---
 
 ### 3. [Advanced Sign-In Form](ca://s?q=Explain_Advanced_Sign_In_Form_DOM_Project)
@@ -34,6 +37,9 @@ Each project demonstrates how to dynamically update and style web pages using Ja
   - Card-style form with **box-shadow**.
   - Heading and subtitle for better UX.
   - Styled inputs and button with transitions.
+
+📸 Screenshot:  
+![Advanced Form](./All_Code/DOM-Projects/images/sign-in-form.png)
 
 ---
 
