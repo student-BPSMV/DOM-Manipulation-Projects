@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+<script>
+
+    // Body Content
+    const body = document.querySelector("body");
+
+    body.style.display = "flex";
+    body.style.justifyContent = "center";
+    body.style.alignItems = "center";
+    body.style.minHeight = "100vh";
+    body.style.margin = "0";
+    body.style.backgroundColor = "#c8b3fd";
+    body.style.fontFamily = "Arial, sans-serif";
+
+    // Form Content
+    const form = document.createElement("form");
+
+    body.appendChild(form);
+
+    form.style.width = "450px";
+    form.style.height = "380px";
+    form.style.padding = "30px";
+    form.style.boxSizing = "border-box";
+    form.style.borderRadius = "20px";
+    form.style.backgroundColor = "#ffffff";
+
+    form.style.display = "flex";
+    form.style.flexDirection = "column";
+    form.style.justifyContent = "center";
+    form.style.alignItems = "stretch";
+
+    form.style.gap = "10px";
+
+
+    // Heading
+    const heading = document.createElement("h1");
+
+    form.appendChild(heading);
+
+    heading.innerText = "Sign - in";
+
+    heading.style.textAlign = "center";
+    heading.style.fontWeight = "bold";
+    heading.style.margin = "0 0 20px 0";
+
+
+    // Username Label
+    const label1 = document.createElement("label");
+
+    label1.innerText = "UserName";
+
+    form.appendChild(label1);
+    label1.style.fontSize = "medium";
+    label1.style.fontWeight = "bold";
+    label1.style.margin = "0";
+
+
+    // Username Input
+    const input1 = document.createElement("input");
+
+    form.appendChild(input1);
+
+    input1.type = "text";
+    input1.placeholder = "Enter your username";
+
+    input1.style.width = "100%";
+    input1.style.height = "35px";
+    input1.style.boxSizing = "border-box";
+    input1.style.padding = "0 12px";
+    input1.style.borderRadius = "13px";
+    input1.style.border = "none";
+    input1.style.backgroundColor = "#e6e6e6";
+
+
+    // Password Label
+    const label2 = document.createElement("label");
+
+    label2.innerText = "Password";
+
+    form.appendChild(label2);
+    label2.style.fontSize = "medium";
+    label2.style.fontWeight = "bold";
+    label2.style.margin = "10px 0 0 0";
+
+
+    // Password Input
+    const input2 = document.createElement("input");
+
+    form.appendChild(input2);
+
+    input2.type = "password";
+    input2.placeholder = "Enter your password";
+
+    input2.style.width = "100%";
+    input2.style.height = "35px";
+    input2.style.boxSizing = "border-box";
+    input2.style.padding = "0 12px";
+    input2.style.borderRadius = "13px";
+    input2.style.border = "none";
+    input2.style.backgroundColor = "#e6e6e6";
+
+
+    // Button
+    const button = document.createElement("button");
+
+    button.innerText = "Sign-in";
+
+    form.appendChild(button);
+    button.style.fontSize = "medium";
+    button.style.width = "100%";
+    button.style.height = "40px";
+    button.style.marginTop = "20px";
+    button.style.borderRadius = "20px";
+    button.style.border = "none";
+    button.style.color = "white";
+    button.style.backgroundColor = "#5e4899";
+    button.style.fontWeight = "bold";
+    button.style.cursor = "pointer";
+
+</script>
+
+</body>
+</html>
+

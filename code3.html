@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+</head>
+<body>
+<script>
+    // Body
+    const body = document.querySelector("body");
+    body.style.margin = "0";
+    body.style.minHeight = "100vh";
+    body.style.display = "flex";
+    body.style.justifyContent = "center";
+    body.style.alignItems = "center";
+    body.style.background =
+        "linear-gradient(135deg, #667eea, #764ba2)";
+    body.style.fontFamily = "Arial, sans-serif";
+    
+    // Form
+    const form = document.createElement("form");
+    body.appendChild(form);
+    form.style.width = "400px";
+    form.style.padding = "40px";
+    form.style.backgroundColor = "white";
+    form.style.borderRadius = "20px";
+    form.style.boxShadow = "0 15px 40px rgba(0,0,0,0.2)";
+    form.style.display = "flex";
+    form.style.flexDirection = "column";
+    form.style.gap = "12px";
+    form.style.boxSizing = "border-box";
+
+    // Heading
+    const heading = document.createElement("h2");
+    heading.innerText = "Welcome Back";
+    form.appendChild(heading);
+    heading.style.textAlign = "center";
+    heading.style.margin = "0";
+    heading.style.color = "#333";
+    heading.style.fontSize = "28px";
+
+    // Subtitle
+    const subtitle = document.createElement("p");
+    subtitle.innerText = "Sign in to continue";
+    form.appendChild(subtitle);
+    subtitle.style.textAlign = "center";
+    subtitle.style.color = "#777";
+    subtitle.style.margin = "0 0 20px 0";
+    subtitle.style.fontSize = "14px";
+
+
+    // Username Label
+    const label1 = document.createElement("label");
+    label1.innerText = "Username";
+    form.appendChild(label1);
+    label1.style.fontWeight = "bold";
+    label1.style.color = "#444";
+
+    // Username Input
+    const input1 = document.createElement("input");
+    input1.type = "text";
+    input1.placeholder = "Enter your username";
+    form.appendChild(input1);
+    input1.style.width = "100%";
+    input1.style.height = "45px";
+    input1.style.padding = "0 15px";
+    input1.style.boxSizing = "border-box";
+    input1.style.border = "1px solid #ddd";
+    input1.style.borderRadius = "10px";
+    input1.style.outline = "none";
+    input1.style.backgroundColor = "#f7f7f7";
+    input1.style.fontSize = "14px";
+
+    // Password Label
+    const label2 = document.createElement("label");
+    label2.innerText = "Password";
+    form.appendChild(label2);
+    label2.style.fontWeight = "bold";
+    label2.style.color = "#444";
+    label2.style.marginTop = "8px";
+
+    // Password Input
+    const input2 = document.createElement("input");
+    input2.type = "password";
+    input2.placeholder = "Enter your password";
+    form.appendChild(input2);
+    input2.style.width = "100%";
+    input2.style.height = "45px";
+    input2.style.padding = "0 15px";
+    input2.style.boxSizing = "border-box";
+    input2.style.border = "1px solid #ddd";
+    input2.style.borderRadius = "10px";
+    input2.style.outline = "none";
+    input2.style.backgroundColor = "#f7f7f7";
+    input2.style.fontSize = "14px";
+
+    // Button
+    const button = document.createElement("button");
+    button.innerText = "Sign In";
+    form.appendChild(button);
+    button.style.width = "100%";
+    button.style.height = "45px";
+    button.style.marginTop = "20px";
+    button.style.border = "none";
+    button.style.borderRadius = "10px";
+    button.style.background =
+        "linear-gradient(135deg, #667eea, #764ba2)";
+    button.style.color = "white";
+    button.style.fontSize = "16px";
+    button.style.fontWeight = "bold";
+    button.style.cursor = "pointer";
+    button.style.transition = "0.3s";
+
+</script>
+
+</body>
+</html> 
