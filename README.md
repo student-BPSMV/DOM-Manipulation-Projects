@@ -7,30 +7,31 @@ Each project demonstrates how to dynamically update and style web pages using Ja
 
 ## 📂 Projects Included
 
-
 ### 1. [Basic Sign-In Form](ca://s?q=Explain_Basic_Sign_In_Form_DOM_Project)
-- A styled sign-in form created entirely with **JavaScript DOM methods** (no static HTML form elements).
-- Features:
-  - Username and Password input fields.
-  - Styled labels and placeholders.
-  - Responsive button with hover effects.
-  - Clean card-style layout.
+A styled sign-in form created entirely with **JavaScript DOM methods** (no static HTML form elements).
 
-📸 Screenshot:  
-![Basic Form](./DOM-Projects/images/form.png)
+**Features:**
+- Username and Password input fields.
+- Styled labels and placeholders.
+- Responsive button with hover effects.
+- Clean card-style layout.
+
+📸 **Screenshot:**  
+![Basic Form](https://github.com/student-BPSMV/DOM-Manipulation-Projects/blob/main/DOM-Projects/images/form.png?raw=true)
 
 ---
 
 ### 2. [Advanced Sign-In Form](ca://s?q=Explain_Advanced_Sign_In_Form_DOM_Project)
-- A more polished version of the sign-in form with gradients and shadows.
-- Features:
-  - Modern UI with **linear-gradient background**.
-  - Card-style form with **box-shadow**.
-  - Heading and subtitle for better UX.
-  - Styled inputs and button with transitions.
+A more polished version of the sign-in form with gradients and shadows.
 
-📸 Screenshot:  
-![Advanced Form](./DOM-Projects/images/sign-in-form.png)
+**Features:**
+- Modern UI with **linear-gradient background**.
+- Card-style form with **box-shadow**.
+- Heading and subtitle for better UX.
+- Styled inputs and button with transitions.
+
+📸 **Screenshot:**  
+![Advanced Form](https://github.com/student-BPSMV/DOM-Manipulation-Projects/blob/main/DOM-Projects/images/sign-in-form.png?raw=true)
 
 ---
 
